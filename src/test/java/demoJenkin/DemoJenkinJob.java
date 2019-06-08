@@ -8,6 +8,7 @@ public class DemoJenkinJob {
 	{
 		System.out.println("Om Namah Sivaya");
 		System.out.println("Jai Kedarnath@@@@@@@@@@@@@");
+		System.out.println("Jai Blolenath@@@@@@@@@@@@@");
 	}
 
 }
