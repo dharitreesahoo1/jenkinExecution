@@ -1,0 +1,17 @@
+pipeline {
+  agent any
+  stages {
+    stage('Source') { // Get code
+      steps {
+        // get code from our Git repository
+       echo "source added"
+      }
+    }
+    stage('Compile') { // Compile and do unit testing
+      steps {
+        echo "compiled===="
+      }
+     
+    }
+  }
+}
